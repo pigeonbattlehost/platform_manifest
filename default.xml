@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/pigeonbattlehost" />
+
+  <default revision="zsp-4.0"
+           remote="github"
+           sync-j="8" />
+
+  <project name="build_make" path="build/make" />
+  <project name="build_core" path="build/core" />
+  <project name="build_target" path="build/target" />
+
+  <project name="developers_changelogs" path="developers/changelogs" />
+
+  <project name="device_generic" path="device/generic" />
+
+  <project name="frameworks_base"
+           path="frameworks/base"
+           revision="zsp-4.0" />
+
+  <project name="frameworks_opt" path="frameworks/opt" />
+
+  <project name="libcore_luni" path="libcore/luni" />
+
+  <project name="packages_apps_calculator" path="packages/apps/calculator" />
+  <project name="packages_apps_calendar" path="packages/apps/calendar" />
+  <project name="packages_apps_camera2" path="packages/apps/camera2" />
+  <project name="packages_apps_contacts" path="packages/apps/contacts" />
+  <project name="packages_apps_deskclock" path="packages/apps/deskclock" />
+  <project name="packages_apps_dialer" path="packages/apps/dialer" />
+  <project name="packages_apps_gallery2" path="packages/apps/gallery2" />
+  <project name="packages_apps_Launcher" path="packages/apps/Launcher" />
+  <project name="packages_apps_settings" path="packages/apps/settings" />
+  <project name="packages_apps_Updater" path="packages/apps/Updater" />
+  <project name="packages_apps_Wallpapers" path="packages/apps/Wallpapers" />
+  <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" />
+  <project name="packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" />
+  <project name="packages_apps_RootlessPixelLauncher" path="packages/apps/RootlessPixelLauncher" />
+
+  <project name="system_core" path="system/core" />
+  <project name="system_extras" path="system/extras" />
+
+  <project name="sdk" path="sdk" />
+
+</manifest>
