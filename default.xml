@@ -12,8 +12,6 @@
   <project name="build_core" path="build/core" />
   <project name="build_target" path="build/target" />
 
-  <project name="developers_changelogs" path="developers/changelogs" />
-
   <project name="device_generic" path="device/generic" />
 
   <project name="frameworks_base"
@@ -31,7 +29,6 @@
   <project name="packages_apps_deskclock" path="packages/apps/deskclock" />
   <project name="packages_apps_dialer" path="packages/apps/dialer" />
   <project name="packages_apps_gallery2" path="packages/apps/gallery2" />
-  <project name="packages_apps_Launcher" path="packages/apps/Launcher" />
   <project name="packages_apps_settings" path="packages/apps/settings" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" />
   <project name="packages_apps_Wallpapers" path="packages/apps/Wallpapers" />
