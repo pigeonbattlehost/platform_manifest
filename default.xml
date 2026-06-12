@@ -8,9 +8,7 @@
            remote="github"
            sync-j="8" />
 
-  <project name="build_make" path="build/make" />
-  <project name="build_core" path="build/core" />
-  <project name="build_target" path="build/target" />
+  <project name="build" path="build" />
 
   <project name="device_generic" path="device/generic" />
 
